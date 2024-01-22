@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&family=Poppins:wght@600&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+  font-family: 'Hedvig Letters Serif', serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar {
+  background-color: #e0f7ff;
+  width: 90%;
+  height: 60px;
+  margin: 0 5%;
+}
+
+.nav-logo {
+  cursor: pointer;
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  padding: 5px;
+}
+
+.corner-logo-img {
+  width: 50px;
+  height: 50px;
+}
+
+.home-logo-img {
+  width: 100px;
+  height: 100px;
+  padding: 15px;
+
+}
+
+.menu-button {
+  cursor: pointer;
+  position: absolute;
+  top: 12.5px;
+  right: 85px;
+  padding: 10px 15px;
+  height: 50px;
+  width: 50px;
+  font-size: 16px;
+  border-color: #00bfff;
+  background-color: #c7f0ff;
+  color: black;
+
+
+}
+
+
+.home {
+  margin: 5% 15%;
+  max-width: 800px;
+  background-color: #dedede;
+  height: 200px;
+  display: flex;
+}
+
+.home-text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: auto;
+  color: #1a0057;
+}
+
+h1.home-title {
+  font-size: 300%;
+  font-weight: 80px;
+}
+
+h2.home-subtitle {
+  font-size: 100%;
+  font-weight: 10px;
+}
+
+.menu-list {
+  position: absolute;
+  top: 65px;
+  right: 8px;
+  width: 125px;
+  height: 0px;
+  background-color: #e0f7ff;
+  display: none;
+  transition: all 0.5s ease;
+}
+
+.menu-list.visible {
+  display: block;
+  height: auto;
+
+}
+
+.menu-list ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.menu-list li:last-child {
+  border-bottom: none;
+}
+
+
+/* Footer */
+.footer {
+  bottom: 0;
+  background-color: #1a0057;
+  color: #ffffff;
+  padding: 1.5em 0;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-section {
+  flex: 1;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.about h1 {
+  color: #00bfff;
+}
+
+.contact span {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.socials a {
+  font-size: 1.5em;
+  margin: 0 0.5em;
+  color: #ffffff;
+}
+
+.contacts span {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.links ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links li {
+  margin-bottom: 0.5em;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 1em;
+  font-size: 0.8em;
+  color: #8c8c8c;
+}
+
+.footer-title {
+  color: lightblue;
+}
